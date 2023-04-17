@@ -1,5 +1,6 @@
 body{
-background-color: #001011;
+    background-color: #001011;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -9,4 +10,16 @@ background-color: #001011;
 
 .nav-bg{
     background-color: rgba(255, 255, 255, .1);
+}
+
+.img-me{
+    height: 95%;
+    left: 40%;
+    top: 14%;
+    position: fixed;
+}
+
+.welcome-text{
+    position: fixed;
+    left: 100px;
 }
