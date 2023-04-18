@@ -13,13 +13,19 @@ body{
 }
 
 .img-me{
-    height: 95%;
-    left: 40%;
-    top: 14%;
-    position: fixed;
+    height: 200%;
+    right: 10%;
+    top: 27%;
+    position: relative;
 }
 
 .welcome-text{
-    position: fixed;
-    left: 100px;
+    position: relative;
+    left: 10%;
+}
+
+.bar-down{
+    position: relative;
+    top: 4000%;
+    width: 40%;
 }
