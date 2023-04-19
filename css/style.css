@@ -13,19 +13,22 @@ body{
 }
 
 .img-me{
-    height: 200%;
-    right: 10%;
-    top: 27%;
-    position: relative;
+    height: 90%;
+    right: 1%;
+    /* left: 1%; */
+    top: 19%;
+    position: absolute;
 }
 
 .welcome-text{
-    position: relative;
+    position: absolute;
     left: 10%;
+    top: 50%;
+    
 }
 
-.bar-down{
+/* .bar-down{
     position: relative;
     top: 4000%;
     width: 40%;
-}
+} */
