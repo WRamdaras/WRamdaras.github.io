@@ -3,41 +3,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
+::-webkit-scrollbar{
+    width: 0px;
+}
+/* Navbar */
 .name-text{
     color: #8D2CA0;
-}
-
-.nav-bg{
-    background-color: rgba(255, 255, 255, .1);
-}
-
-.img-me{
-    /* height: 90%;
-    right: 1%;
-    left: 1%;
-    top: 19%;
-    position: absolute; */
-    height: 800px;
-    margin-top: 250px;
-    object-fit: cover;
-    overflow: hidden;
-    border: solid 2px white ;
-}
-
-.welcome-text{
-    /* position: absolute;
-    left: 10%;
-    top: 50%;
-     */
-    margin-top: 450px;
-    margin-left: 200px;
-}
-
-.bar-down{
-    /* position: absolute; */
-    /* top: 4000%; */
-    width: 40%;
 }
 
 .text-hover{
@@ -48,4 +23,40 @@ body{
 .text-hover:hover{
     color: #8D2CA0;
     text-decoration: underline;
+    transition: .5s ease;
 }
+
+.nav-bg{
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+/* Home bg */
+.blob{
+    z-index: -1;
+    position: absolute;
+}
+
+.img-me{
+    height: 700px;
+    margin-top: 100px;
+    object-fit: cover;
+    overflow: hidden;
+    border: solid 2px white;
+}
+
+.welcome-text{
+    margin-top: 450px;
+    margin-left: 200px;
+}
+
+/* About me */
+.four-bars{
+    margin-top: 200px;
+}
+
+.about-text{
+    margin-top: 200px;
+}
+
