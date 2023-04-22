@@ -39,11 +39,11 @@ html{
 }
 
 .img-me{
-    height: 700px;
+    height: 685px;
     margin-top: 100px;
     object-fit: cover;
     overflow: hidden;
-    border: solid 2px white;
+    /* border: solid 2px white; */
 }
 
 .welcome-text{
@@ -57,7 +57,28 @@ html{
 }
 
 .about-text{
-    margin-top: 200px;
+    margin-top: 320px;
+    font-size: 20px;
+}
+
+.bar-one{
+    width: 50%;
+    background-color: #E65100;
+}
+
+.bar-two{
+    width: 50%;
+    background-color: #2AA4F4;
+}
+
+.bar-three{
+    width: 50%;
+    background-color: #F7DF1E;
+}
+
+.bar-four{
+    width: 50%;
+    background-color: #673AB7;
 }
 
 .more{
