@@ -5,6 +5,7 @@ body{
 
 html{
     scroll-behavior: smooth;
+    /* scroll-padding-top: 100px; */
 }
 
 ::-webkit-scrollbar{
@@ -21,6 +22,7 @@ html{
 }
 
 .text-hover:hover{
+    /* color: #47FFFC; */
     color: #8D2CA0;
     text-decoration: underline;
     transition: .5s ease;
@@ -53,11 +55,15 @@ html{
 
 /* About me */
 .four-bars{
-    margin-top: 200px;
+    margin-top: 300px;
+}
+
+.info-text{
+    color: #47FFFC;
 }
 
 .about-text{
-    margin-top: 320px;
+    margin-top: 300px;
     font-size: 20px;
 }
 
@@ -83,4 +89,30 @@ html{
 
 .more{
     margin-top: 500px;
+}
+
+/* Projecten */
+.project-scroll{
+    scroll-margin-top: 90px;
+}
+
+.project-text{
+    color: #47FFFC;
+    margin-top: 400px;
+}
+
+.card-1{
+    margin-top: 50px;
+}
+
+.card-2{
+    margin-top: 20px;
+}
+
+.card-3{
+margin-top: 20px;
+}
+
+.project-card{
+    width: 800px;
 }

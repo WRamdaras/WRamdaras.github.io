@@ -19,10 +19,11 @@
 </head>
 
 <body>
+  <!-- Navbar -->
     <nav class="navbar navbar-expand-lg nav-bg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand fs-3 text-light" href="#"><span class="name-text">Wiresh</span> Ramdaras</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,7 +35,7 @@
                 <a class="nav-link text-hover" href="#Mijn info">Mijn info</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#">Projecten</a>
+                <a class="nav-link text-hover" href="#Projecten">Projecten</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-hover" href="#">Contact</a>
@@ -59,9 +60,16 @@
         </div>
       </div>
       
+      <br>
+      <br>
+
+      <!-- Mijn info -->
     <div class="container" id="Mijn info">
       <div class="row">
         <div class="col text-light about-text">
+          <p class="fs-1 info-text">
+            Mijn info
+          </p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cupiditate est, iste omnis dolorum error ipsam quis, sint perferendis blanditiis reiciendis. Hic rerum soluta, pariatur numquam officia vitae qui exercitationem!
         </div>
         <div class="col four-bars">
@@ -88,6 +96,58 @@
       </div>
     </div>
 
+    <!-- Projecten -->
+    <div class="container project-scroll" id="Projecten">
+      <p class="text-center project-text fs-1">
+        Projecten
+      </p>
+      <div class="col card-1 d-flex justify-content-center">
+        <div class="card mb-3 project-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/placeholder.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col card-2 d-flex justify-content-center">
+        <div class="card mb-3 project-card">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="img/placeholder.png" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col card-3 d-flex justify-content-center">
+        <div class="card mb-3 project-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/placeholder.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="col">
@@ -97,7 +157,6 @@
         </div>
       </div>
     </div>
-
 
      
     <script src="js/main.js"></script>
