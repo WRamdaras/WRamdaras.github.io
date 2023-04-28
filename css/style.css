@@ -130,3 +130,35 @@ margin-top: 20px;
     margin-right: 380px;
     margin-top: 100px;
 }
+
+/* Contact */
+.contact-down{
+    margin-top: 300px;
+    position: relative;
+}
+
+.contact-text{
+    color: #47FFFC;
+}
+
+.contact{
+    color: white;
+    position: absolute;
+    top: 40%;
+}
+
+.form-label{
+    color: white; 
+    margin-left: 650px;
+}
+
+.form-control{
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 650px;
+}
+
+.icons{
+    /* margin-top: 100px; */
+}
+
