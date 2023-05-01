@@ -158,7 +158,16 @@ margin-top: 20px;
     margin-left: 650px;
 }
 
+.btn-send{
+    background-color: #424BB3;
+    color: white;
+    margin-left: 650px;
+    width: 650px;
+}
+
 .icons{
     /* margin-top: 100px; */
 }
+
+
 
