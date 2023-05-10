@@ -149,20 +149,25 @@ margin-top: 20px;
 
 .form-label{
     color: white; 
-    margin-left: 650px;
+    /* margin-left: 300px; */
 }
 
 .form-control{
     width: 50%;
     border: 2px solid black;
-    margin-left: 650px;
+    /* margin-left: 300px; */
 }
 
 .btn-send{
     background-color: #424BB3;
     color: white;
-    margin-left: 650px;
-    width: 650px;
+    /* margin-left: 650px; */
+    width: 200px;
+}
+
+.btn-send:hover{
+    background-color: #424BB3;
+    color: #47FFFC;
 }
 
 .icons{

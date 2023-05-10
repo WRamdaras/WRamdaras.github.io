@@ -155,15 +155,19 @@
     </div>
 
     <!-- Contact -->
+    <form
+  action="https://formspree.io/f/xzbqwple"
+  method="POST"
+>
     <div class="container" id="Contact">
       <div class="row">
         <div class="col contact-down">
           <p class="fs-1 text-center contact-text">Contact</p>
-          <p class="contact fs-1">Stuur mij een bericht</p>
-          <div class="col">
+          <!-- <p class="contact fs-1">Stuur mij een bericht</p> -->
+          <div class="col align-content-center">
           <div class="mb-3">
-            <label for="Voornaam" class="form-label">Voornaam</label>
-            <input type="text" class="form-control" name="Voornaam" id="Voornaam" placeholder="Voornaam">
+            <label for="Voornaam" class="form-label ">Voornaam</label>
+            <input type="text" class="form-control " name="Voornaam" id="Voornaam" placeholder="Voornaam">
           </div>
           <div class="mb-3">
             <label for="Achternaam" class="form-label">Achternaam</label>
@@ -171,19 +175,21 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Wat is uw vraag</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           </div>
           <div class="col">
-            <button type="submit" class="btn border-white btn-send">Verzend</button>
+            <button type="submit" id="btn" class="btn border-white btn-send">Verzend</button>
           </div>
         </div>
       </div>
 </div>
+</form>
+
       <div class="container">
         <!-- <div class="row"> -->
           <div class="col text-center icons mt-5">
