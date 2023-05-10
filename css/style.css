@@ -63,7 +63,7 @@ html{
 }
 
 .about-text{
-    margin-top: 300px;
+    margin-top: 250px;
     font-size: 20px;
 }
 
@@ -114,22 +114,20 @@ margin-top: 20px;
 }
 
 .project-card{
-    width: 800px;
+    width: 900px;
 }
 
 .shoe-img{
+    height: 200px;
     /* width: 900px; */
-}
-
-.card-pro{
-    /* width: 500px; */
+    object-fit: contain;
 }
 
 .source-btn{
     background-color: #424BB3;
     color: white;
-    margin-left: 380px;
-    margin-top: 100px;
+    margin-left: 445px;
+    margin-top: 40px;
 }
 
 .source-btn:hover{
@@ -137,14 +135,14 @@ margin-top: 20px;
     color: white;
 }
 
-.source-btn-two{
+.source-btn-one{
     background-color: #424BB3;
     color: white;
     margin-right: 380px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
-.source-btn-two:hover{
+.source-btn-one:hover{
     background-color: #424BB3;
     color: white;
 }
