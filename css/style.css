@@ -187,12 +187,13 @@ html{
        margin-left: 10px;
     }
     .blob{
-        width: 500px;
+        width: 460px;
         margin-top: 100px;
+        /* margin-right: 100px; */
     }
     .img-me{
-        width: 440px;
-        height: 440px;
+        width: 400px;
+        height: 400px;
         margin-top: 90px;
         margin-left: 20px;
     }
@@ -210,6 +211,50 @@ html{
     .progress{
         width: 290%;
     }
-    
+    /* Projects */
+    .project-card{
+        width: 455px;
+    }
+    .project-img{
+        width: 455px;
+    }
+    .preview-btn{
+        margin-left: 175px;
+    }
+    /* Contact */
+    .form-control{
+        width: 100%;
+    }
+    .btn-send{
+        margin: 0 auto;
+        display: block;
+    }
+}
+/* Mobile S */
+@media only screen and (max-width: 320px){
+
+}
+/* Mobile M */
+@media only screen and (max-width: 375px){
+
+}
+/* Mobile L */
+@media only screen and (max-width: 425px){
+
+}
+/* Tablet */
+@media only screen and (max-width: 768px){
+
+}
+/* Laptop */
+@media only screen and (max-width: 1024px){
+
+}
+/* Laptop L */
+@media only screen and (max-width: 1440px){
+
+}
+/* Laptop XL */
+@media only screen and (max-width: 1281px){
 
 }
