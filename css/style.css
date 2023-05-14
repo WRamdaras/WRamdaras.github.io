@@ -325,7 +325,19 @@ html{
         margin-left: 240px;
     }
 } */
-/* Laptop 1024px ------------------------------------------------------------------------------------------------------------*/ 
+/* 4K 2560px */
+@media only screen and (max-width: 2560px){
+
+}
+/* Laptop XL 1281px*/
+@media only screen and (max-width: 1281px){
+
+}
+/* Laptop L 1440px*/
+@media only screen and (max-width: 1440px){
+
+}
+/* Laptop 1024px*/ 
 @media only screen and (max-width: 1024px){
     .welcome-text{
         margin-top: 400px;
@@ -495,12 +507,3 @@ html{
         width: 150%;
     }
 }
-/* Laptop L 1440px*/
-@media only screen and (max-width: 1440px){
-
-}
-/* Laptop XL 1281px*/
-@media only screen and (max-width: 1281px){
-
-}
-/* 4K 2560px */
