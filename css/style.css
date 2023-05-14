@@ -5,7 +5,6 @@ body{
 
 html{
     scroll-behavior: smooth;
-    /* scroll-padding-top: 100px; */
 }
 
 ::-webkit-scrollbar{
@@ -146,19 +145,16 @@ html{
 
 .form-label{
     color: white; 
-    /* margin-left: 300px; */
 }
 
 .form-control{
     width: 50%;
     border: 2px solid black;
-    /* margin-left: 300px; */
 }
 
 .btn-send{
     background-color: #424BB3;
     color: white;
-    /* margin-left: 650px; */
     width: 200px;
 }
 
@@ -323,7 +319,6 @@ html{
     }
     .project-card{
         width: 390px;
-        /* margin-left: 10px; */
     }
     .project-img{
         width: 390px;
