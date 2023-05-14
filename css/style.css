@@ -175,44 +175,41 @@ html{
 } */
 
 /* mobile */
-@media only screen and (max-width: 480px){
+/* @media only screen and (max-width: 480px){ */
    /* Navbar */
-    .navbar-toggler{
+    /* .navbar-toggler{
         background-color: #8D2CA0;
         color: white;
-     }
+     } */
      /* Home */
-    .welcome-text{
+    /* .welcome-text{
        margin-top: 100px;
        margin-left: 10px;
-    }
-    .blob{
+    } */
+    /* .blob{
         width: 460px;
-        margin-top: 100px;
+        margin-top: 100px; */
         /* margin-right: 100px; */
-    }
-    .img-me{
+    /* } */
+    /* .img-me{
         width: 400px;
         height: 400px;
         margin-top: 90px;
         margin-left: 20px;
-    }
+    } */
     /* About me */
-    .four-bars{
+    /* .four-bars{
         margin-top: 100px;
         margin-right: 300px;
     }
-    /* .about-text{
-     
-    } */
     .info-text{
         text-align: center;
     }
     .progress{
         width: 290%;
-    }
+    } */
     /* Projects */
-    .project-card{
+    /* .project-card{
         width: 455px;
     }
     .project-img{
@@ -222,39 +219,288 @@ html{
         margin-left: 175px;
     }
     /* Contact */
-    .form-control{
+    /* .form-control{
         width: 100%;
     }
     .btn-send{
         margin: 0 auto;
         display: block;
+    } */
+/* }  */
+/* Mobile S 320px*/
+/* @media only screen and (max-width: 320px){ */
+    /* .img-me{
+        margin-left: 70px;
+    } */
+    /* .info-text{
+        text-align: center;
+    }
+    .four-bars{
+        margin-top: 10px;
+    }
+    .progress{
+        width: 450%;
+    }
+    .project-card{
+        width: 450px;
+    }
+    .project-img{
+        width: 450px;
+    }
+    .preview-btn{
+        margin-left: 170px;
+    }
+    .form-control{
+        width: 150%;
+    }
+} */
+/* Mobile M 375px*/
+/* @media only screen and (max-width: 375px){
+    .img-me{
+        margin-left: 40px;
+    }
+    .progress{
+        width: 440%;
+    }
+    .project-card{
+        width: 450px;
+    }
+    .project-img{
+        width: 450px;
+    }
+    .preview-btn{
+        margin-left: 170px;
+    }
+    .form-control{
+        width: 125%;
+    }
+} */
+/* Mobile L 425px*/
+/* @media only screen and (max-width: 425px){
+    .progress{
+        width: 435%;
+    }
+    .project-card{
+        width: 445px;
+    }
+    .project-img{
+        width: 445px;
+    }
+    .preview-btn{
+        margin-left: 165px;
+    }
+    .form-control{
+        width: 110%;
+    }
+} */
+/* Tablet 768px*/
+/* @media only screen and (max-width: 768px){
+    .navbar-toggler{
+        background-color: #8D2CA0;
+        color: white;
+    }
+    .welcome-text{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+    .blob{
+        margin-top: 300px;
+        width: 350px;
+    }
+    .img-me{
+        margin-top: 250px;
+        width: 360px;
+        height: 360px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .form-control{
+        margin-left: 170px;
+    }
+    .form-label{
+        margin-left: 175px;
+    }
+    .btn-send{
+        margin-left: 240px;
+    }
+} */
+/* Laptop 1024px ------------------------------------------------------------------------------------------------------------*/ 
+@media only screen and (max-width: 1024px){
+    .welcome-text{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+    .blob{
+        margin-top: 150px;
+    }
+    .img-me{
+        width: 400px;
+        height: 400px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    .card{
+        margin-left: 210px;
     }
 }
-/* Mobile S */
-@media only screen and (max-width: 320px){
-
-}
-/* Mobile M */
-@media only screen and (max-width: 375px){
-
-}
-/* Mobile L */
-@media only screen and (max-width: 425px){
-
-}
-/* Tablet */
+/* Tablet 768px*/
 @media only screen and (max-width: 768px){
-
+    .navbar-toggler{
+        background-color: #8D2CA0;
+        color: white;
+    }
+    .welcome-text{
+        margin-top: 400px;
+        margin-left: 10px;
+    }
+    .blob{
+        margin-top: 300px;
+        width: 350px;
+    }
+    .img-me{
+        margin-top: 250px;
+        width: 360px;
+        height: 360px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .form-control{
+        margin-left: 170px;
+    }
+    .form-label{
+        margin-left: 175px;
+    }
+    .btn-send{
+        margin-left: 240px;
+    }
 }
-/* Laptop */
-@media only screen and (max-width: 1024px){
-
+/* mobile */
+@media only screen and (max-width: 480px){
+    /* Navbar */
+     .navbar-toggler{
+         background-color: #8D2CA0;
+         color: white;
+      }
+      /* Home */
+     .welcome-text{
+        margin-top: 100px;
+        margin-left: 10px;
+     }
+     .blob{
+         width: 460px;
+         margin-top: 100px;
+         /* margin-right: 100px; */
+     }
+     .img-me{
+         width: 400px;
+         height: 400px;
+         margin-top: 90px;
+         margin-left: 20px;
+     }
+     /* About me */
+     .four-bars{
+         margin-top: 100px;
+         margin-right: 300px;
+     }
+     .info-text{
+         text-align: center;
+     }
+     .progress{
+         width: 290%;
+     }
+     /* Projects */
+     .project-card{
+         width: 455px;
+     }
+     .project-img{
+         width: 455px;
+     }
+     .preview-btn{
+         margin-left: 175px;
+     }
+     /* Contact */
+     .form-control{
+         width: 100%;
+     }
+     .btn-send{
+         margin: 0 auto;
+         display: block;
+     }
+ }
+/* Mobile L 425px*/
+@media only screen and (max-width: 425px){
+    .progress{
+        width: 435%;
+    }
+    .project-card{
+        width: 445px;
+    }
+    .project-img{
+        width: 445px;
+    }
+    .preview-btn{
+        margin-left: 165px;
+    }
+    .form-control{
+        width: 110%;
+    }
 }
-/* Laptop L */
+/* Mobile M 375px*/
+@media only screen and (max-width: 375px){
+    .img-me{
+        margin-left: 40px;
+    }
+    .progress{
+        width: 440%;
+    }
+    .project-card{
+        width: 450px;
+    }
+    .project-img{
+        width: 450px;
+    }
+    .preview-btn{
+        margin-left: 170px;
+    }
+    .form-control{
+        width: 125%;
+    }
+}
+/* Mobile S 320px*/
+@media only screen and (max-width: 320px){
+    /* .img-me{
+        margin-left: 70px;
+    } */
+    .info-text{
+        text-align: center;
+    }
+    .four-bars{
+        margin-top: 10px;
+    }
+    .progress{
+        width: 450%;
+    }
+    .project-card{
+        width: 450px;
+    }
+    .project-img{
+        width: 450px;
+    }
+    .preview-btn{
+        margin-left: 170px;
+    }
+    .form-control{
+        width: 150%;
+    }
+}
+/* Laptop L 1440px*/
 @media only screen and (max-width: 1440px){
 
 }
-/* Laptop XL */
+/* Laptop XL 1281px*/
 @media only screen and (max-width: 1281px){
 
 }
+/* 4K 2560px */
