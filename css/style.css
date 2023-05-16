@@ -103,6 +103,8 @@ html{
 
 .project-card{
     width: 500px;
+    display: block;
+    margin: auto;
 }
 
 .preview-btn{
@@ -315,7 +317,7 @@ html{
         height: 350px;
     }
     .progress{
-        width: 420%;
+        width: 400%;
     }
     .project-card{
         width: 390px;
