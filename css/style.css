@@ -317,19 +317,19 @@ html{
         height: 350px;
     }
     .progress{
-        width: 400%;
+        width: 390%;
     }
     .project-card{
-        width: 390px;
+        width: 385px;
     }
     .project-img{
-        width: 390px;
+        width: 385px;
     }
     .preview-btn{
-        margin-left: 110px;
+        margin-left: 105px;
     }
     .form-control{
-        width: 100%;
+        width: 95%;
     }
 }
 /* Mobile M 375px*/
@@ -346,13 +346,13 @@ html{
         width: 340%;
     }
     .project-card{
-        width: 340px;
+        width: 335px;
     }
     .project-img{
-        width: 340px;
+        width: 335px;
     }
     .preview-btn{
-        margin-left: 60px;
+        margin-left: 55px;
     }
     .form-control{
         width: 95%;
@@ -386,6 +386,6 @@ html{
         margin-left: 1px;
     }
     .form-control{
-        width: 90%;
+        width: 95%;
     }
 }
