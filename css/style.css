@@ -91,6 +91,29 @@ html{
     background-color: #673AB7;
 }
 
+.CV{
+    color: white;
+    background-color: #424BB3;
+    width: 100px;
+    border:2px solid white;
+}
+
+.inspiration{
+    color: white;
+    background-color: #424BB3;
+    border:2px solid white;
+}
+
+.CV:hover{
+    color: white;
+    background-color: #424BB3;
+}
+
+.inspiration:hover{
+    color: white;
+    background-color: #424BB3;
+}
+
 /* Projecten */
 .project-scroll{
     scroll-margin-top: 90px;
@@ -162,6 +185,7 @@ html{
     background-color: #424BB3;
     color: white;
     width: 200px;
+    
 }
 
 .btn-send:hover{
@@ -214,8 +238,14 @@ html{
         margin-top: 200px;
         margin-left: 20px;
     }
-    .card{
-        margin-left: 210px;
+    .project-card{
+        width: 100%;
+    }
+    .project-img{
+        width: 100%;
+    }
+    .preview-btn{
+        margin-left: 170px;
     }
 }
 /* Tablet 768px*/
@@ -237,8 +267,8 @@ html{
         width: 330px;
         height: 330px;
     }
-    .card{
-        margin-left: 100px;
+    .preview-btn{
+        margin-left: 50px;
     }
     .form-control{
         margin-left: 170px;
