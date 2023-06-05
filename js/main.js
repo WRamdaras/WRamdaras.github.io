@@ -30,7 +30,6 @@ sourceCodeTwo.addEventListener('click', function(link){
 
 linkedinBtn.addEventListener('click', function(link){
     link.preventDefault();
-  window.open("https://nl.linkedin.com/");
+  window.open("https://nl.linkedin.com/in/wiresh-ramdaras-954a09276");
 
 });
-
