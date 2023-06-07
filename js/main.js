@@ -12,7 +12,7 @@ ghLink.addEventListener('click', function(link){
 
 sourceCode.addEventListener('click', function(link){
     link.preventDefault();
-  window.open("https://github.com/WRamdaras/Shoe-Site");
+  window.open("https://github.com/WRamdaras/netflix");
 
 });
 
