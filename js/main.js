@@ -1,8 +1,17 @@
-const ghLink = document.querySelector('.bi-github');
-const sourceCode = document.querySelector('.source-btn');
-const sourceCodeOne = document.querySelector('.source-btn-one');
-const sourceCodeTwo = document.querySelector('.source-btn-two');
-const linkedinBtn = document.querySelector('.bi-linkedin');
+let ghLink = document.querySelector('.bi-github');
+let sourceCodeNetflix = document.querySelector('.source-btn');
+let sourceCodeOne = document.querySelector('.source-btn-one');
+let sourceCodeTwo = document.querySelector('.source-btn-two');
+let sourceCodeThree = document.querySelector('.source-btn-three');
+let sourceCodeFour = document.querySelector('.source-btn-four');
+let sourceCodeFive = document.querySelector('.source-btn-five');
+let linkedinBtn = document.querySelector('.bi-linkedin');
+let = previewNetflix = document.querySelector(".preview-btn")
+let = previewBtnOne = document.querySelector(".preview-btn-one")
+let = previewBtnTwo = document.querySelector(".preview-btn-two")
+let = previewBtnThree = document.querySelector(".preview-btn-three")
+let = previewBtnFour = document.querySelector(".preview-btn-four")
+let = previewBtnFive = document.querySelector(".preview-btn-five")
 
 ghLink.addEventListener('click', function(link){
     link.preventDefault();
@@ -10,9 +19,9 @@ ghLink.addEventListener('click', function(link){
 
 });
 
-sourceCode.addEventListener('click', function(link){
+sourceCodeNetflix.addEventListener('click', function(link){
     link.preventDefault();
-  window.open("https://github.com/WRamdaras/Shoe-Site");
+  window.open("https://github.com/WRamdaras/netflix");
 
 });
 
@@ -30,7 +39,11 @@ sourceCodeTwo.addEventListener('click', function(link){
 
 linkedinBtn.addEventListener('click', function(link){
     link.preventDefault();
-  window.open("https://nl.linkedin.com/");
+  window.open("https://nl.linkedin.com/in/wiresh-ramdaras-954a09276");
 
 });
 
+previewNetflix.addEventListener("click", function(link){
+  link.preventDefault();
+  window.open("https://wramdaras.github.io/netflix/");
+})
