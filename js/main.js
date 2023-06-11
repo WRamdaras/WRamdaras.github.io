@@ -1,49 +1,45 @@
-let ghLink = document.querySelector('.bi-github');
-let sourceCodeNetflix = document.querySelector('.source-btn');
-let sourceCodeOne = document.querySelector('.source-btn-one');
-let sourceCodeTwo = document.querySelector('.source-btn-two');
-let sourceCodeThree = document.querySelector('.source-btn-three');
-let sourceCodeFour = document.querySelector('.source-btn-four');
-let sourceCodeFive = document.querySelector('.source-btn-five');
-let linkedinBtn = document.querySelector('.bi-linkedin');
-let = previewNetflix = document.querySelector(".preview-btn")
-let = previewBtnOne = document.querySelector(".preview-btn-one")
-let = previewBtnTwo = document.querySelector(".preview-btn-two")
-let = previewBtnThree = document.querySelector(".preview-btn-three")
-let = previewBtnFour = document.querySelector(".preview-btn-four")
-let = previewBtnFive = document.querySelector(".preview-btn-five")
+let sourceCodeDashboard = document.querySelector(".source-btn");
+let = previewBtnDashboard = document.querySelector(".preview-btn");
 
-ghLink.addEventListener('click', function(link){
-    link.preventDefault();
-  window.open("https://github.com/WRamdaras");
+let sourceCodeWebcatalogus = document.querySelector(".source-btn-one");
+let = previewBtnWebcatalogus = document.querySelector(".preview-btn-one");
 
-});
-
-sourceCodeNetflix.addEventListener('click', function(link){
-    link.preventDefault();
+let sourceCodeNetflix = document.querySelector(".source-btn-two");
+sourceCodeNetflix.addEventListener("click", function (link) {
+  link.preventDefault();
   window.open("https://github.com/WRamdaras/netflix");
-
 });
-
-sourceCodeOne.addEventListener('click', function(link){
-    link.preventDefault();
-  window.open("https://github.com/ROCMondriaanTIN/sd22-themaweek-2-t1k-WRamdaras");
-
-});
-
-sourceCodeTwo.addEventListener('click', function(link){
-    link.preventDefault();
-  window.open("https://github.com/ROCMondriaanTIN/sd22-design-p2-portfolio-WRamdaras");
-
-});
-
-linkedinBtn.addEventListener('click', function(link){
-    link.preventDefault();
-  window.open("https://nl.linkedin.com/in/wiresh-ramdaras-954a09276");
-
-});
-
-previewNetflix.addEventListener("click", function(link){
+let = previewNetflix = document.querySelector(".preview-btn-two");
+previewNetflix.addEventListener("click", function (link) {
   link.preventDefault();
   window.open("https://wramdaras.github.io/netflix/");
-})
+});
+
+let sourceCodeEscapeRoom = document.querySelector(".source-btn-three");
+let = previewBtnEscapeRoom = document.querySelector(".preview-btn-three");
+
+let sourceCodeBKE = document.querySelector(".source-btn-four");
+let = previewBtnBKE = document.querySelector(".preview-btn-four");
+
+let sourceCodeHogerLager = document.querySelector(".source-btn-five");
+let = previewBtnHogerLager = document.querySelector(".preview-btn-five");
+
+let ghLink = document.querySelector(".bi-github");
+ghLink.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://github.com/WRamdaras");
+});
+
+let linkedinBtn = document.querySelector(".bi-linkedin");
+linkedinBtn.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://nl.linkedin.com/in/wiresh-ramdaras-954a09276");
+});
+
+const progressBar = document.querySelector(".progress-bar");
+const totalHeight = document.body.scrollHeight - window.innerHeight;
+
+window.onscroll = function () {
+  const progressHeight = (window.pageYOffset / totalHeight) * 100;
+  progressBar.style.width = progressHeight + "%";
+};
