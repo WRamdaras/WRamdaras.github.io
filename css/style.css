@@ -112,19 +112,19 @@ html {
   border: 2px solid white;
 }
 
-.inspiration {
-  color: white;
-  background-color: #424bb3;
-  border: 2px solid white;
-}
-
 .CV:hover {
   color: white;
   background-color: #424bb3;
 }
 
-.inspiration:hover {
+.inspiration {
   color: white;
+  background-color: #424bb3;
+  border: 2px solid white;
+  /* text-decoration: none; */
+}
+
+.inspiration:hover {
   background-color: #424bb3;
 }
 
