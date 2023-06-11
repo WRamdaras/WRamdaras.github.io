@@ -20,9 +20,9 @@
         <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<!-- <body oncontextmenu="return false"> -->
+  <body>
   <!-- Navbar -->
-  <!-- note need to make reading scrollbar -->
     <nav class="navbar navbar-expand-lg nav-bg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand fs-3 text-light" href="#"><span class="name-text">Wiresh</span> Ramdaras</a>
@@ -35,7 +35,7 @@
                 <a class="nav-link text-hover" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Mijn info">About me</a>
+                <a class="nav-link text-hover" href="#Mijn-info">About me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-hover" href="#Projecten">Projects</a>
@@ -43,7 +43,11 @@
               <li class="nav-item">
                 <a class="nav-link text-hover" href="#Contact">Contact</a>
               </li>
+              </ul>
           </div>
+        </div>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
         </div>
       </nav>
 
@@ -67,8 +71,8 @@
       <br>
       <br>
 
-      <!-- Mijn info -->
-    <div class="container" id="Mijn info">
+      <!-- Mijn-info -->
+    <div class="container" id="Mijn-info">
       <div class="row">
         <div class="col text-light about-text">
           <p class="fs-1 info-text">
@@ -114,11 +118,11 @@
           <div class="card mx-auto project-card ">
             <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Dashboard</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-                <a href="#"><button class="btn preview-btn">Live preview</button></a>
-                <a href="#"><button class="btn source-btn">Source Code</button></a>
+              <div class="btn-toolbar">
+                <button class="btn preview-btn">Live preview</button>
+                <button class="btn source-btn">Source Code</button>
               </div>
             </div>
           </div>
@@ -127,39 +131,11 @@
           <div class="card mx-auto project-card">
             <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Webcatalogus</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-                <a href="#"><button class="btn preview-btn preview-btn-one">Live preview</button></a>
-                <a href="#"><button class="btn source-btn source-btn-one">Source Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <div class="card mx-auto project-card">
-            <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-                <a href="#"><button class="btn preview-btn preview-btn-two">Live preview</button></a>
-                <a href="#"><button class="btn source-btn source-btn-two">Source Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-3">
-          <div class="card mx-auto project-card">
-            <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-                <a href="#"><button class="btn preview-btn preview-btn-three">Live preview</button></a>
-                <a href="#"><button class="btn source-btn source-btn-three">Source Code</button></a>
+              <div class="btn-toolbar">
+                <button class="btn preview-btn preview-btn-one">Live preview</button>
+                <button class="btn source-btn source-btn-one">Source Code</button>
               </div>
             </div>
           </div>
@@ -170,11 +146,11 @@
           <div class="card mx-auto project-card">
             <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Netflix</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-                <a href="#"><button class="btn preview-btn preview-btn-four">Live preview</button></a>
-                <a href="#"><button class="btn source-btn source-btn-four">Source Code</button></a>
+              <div class="btn-toolbar">
+                <button class="btn preview-btn preview-btn-two">Live preview</button>
+                <button class="btn source-btn source-btn-two">Source Code</button>
               </div>
             </div>
           </div>
@@ -183,11 +159,39 @@
           <div class="card mx-auto project-card">
             <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Escape room</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="btn-group">
-              <a href="#"><button class="btn preview-btn preview-btn-five">Live preview</button></a>
-              <a href="#"><button class="btn source-btn source-btn-five">Source Code</button></a>
+              <div class="btn-toolbar">
+                <button class="btn preview-btn preview-btn-three">Live preview</button>
+                <button class="btn source-btn source-btn-three">Source Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card mx-auto project-card">
+            <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Boter Kaas en Eieren</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="btn-toolbar">
+                <button class="btn preview-btn preview-btn-four">Live preview</button>
+                <button class="btn source-btn source-btn-four">Source Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card mx-auto project-card">
+            <img src="img/netflix-clone.png" class="card-img-top project-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hoger Lager</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="btn-toolbar">
+              <button class="btn preview-btn preview-btn-five">Live preview</button>
+              <button class="btn source-btn source-btn-five">Source Code</button>
             </div>
             </div>
           </div>
@@ -224,7 +228,7 @@
           </div>
           </div>
           <div class="col">
-            <button type="submit reset" id="btn" class="btn border-white btn-send">Send</button>
+            <button type="submit" id="btn" class="btn border-white btn-send">Send</button>
           </div>
         </div>
     
@@ -233,14 +237,12 @@
 </form>
 
       <div class="container">
-        <!-- <div class="row"> -->
           <div class="col text-center icons mt-5">
             <a href="#"><i class="bi bi-github text-light fs-1 "></i></a>
             <a href="#"><i class="bi bi-linkedin text-light fs-1"></i></a>
           </div>
             <div class="col text-center">
             <p class="text-dark mt-5">Made by Wiresh Ramdaras</p>
-          <!-- </div> -->
         </div>
       </div>
 </div>
