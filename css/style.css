@@ -80,6 +80,11 @@ html {
   color: #47fffc;
 }
 
+.inspiration-text{
+  color: #47fffc;
+  font-size: 30px;
+}
+
 .about-text {
   margin-top: 250px;
   font-size: 20px;
@@ -173,7 +178,6 @@ html {
 /* Contact */
 .contact-down {
   margin-top: 300px;
-  position: relative;
 }
 
 .contact-text {
@@ -182,7 +186,6 @@ html {
 
 .contact {
   color: white;
-  position: absolute;
   top: 40%;
 }
 
@@ -204,6 +207,11 @@ html {
 .btn-send:hover {
   background-color: #424bb3;
   color: white;
+}
+
+.qr-code{
+  margin-left: 200px;
+  width: 30%;
 }
 
 /* 4K 2560px
@@ -259,6 +267,9 @@ html {
   .preview-btn {
     margin-left: 170px;
   }
+  .qr-code{
+    margin-left: 10px;
+  }
 }
 /* Tablet 768px*/
 @media only screen and (max-width: 768px) {
@@ -290,6 +301,9 @@ html {
   }
   .btn-send {
     margin-left: 240px;
+  }
+  .qr-code{
+    display: none;
   }
 }
 /* mobile */
