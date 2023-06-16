@@ -19,10 +19,26 @@ let sourceCodeEscapeRoom = document.querySelector(".source-btn-three");
 let = previewBtnEscapeRoom = document.querySelector(".preview-btn-three");
 
 let sourceCodeBKE = document.querySelector(".source-btn-four");
+sourceCodeBKE.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://github.com/WRamdaras/TicTacToe");
+});
 let = previewBtnBKE = document.querySelector(".preview-btn-four");
+previewBtnBKE.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://wramdaras.github.io/TicTacToe/");
+});
 
 let sourceCodeHogerLager = document.querySelector(".source-btn-five");
+sourceCodeHogerLager.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://github.com/WRamdaras/HigherLower");
+});
 let = previewBtnHogerLager = document.querySelector(".preview-btn-five");
+previewBtnHogerLager.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://wramdaras.github.io/HigherLower/");
+});
 
 let ghLink = document.querySelector(".bi-github");
 ghLink.addEventListener("click", function (link) {
