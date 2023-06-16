@@ -169,7 +169,6 @@ html {
 /* Contact */
 .contact-down {
   margin-top: 300px;
-  position: relative;
 }
 
 .contact-text {
@@ -178,7 +177,6 @@ html {
 
 .contact {
   color: white;
-  position: absolute;
   top: 40%;
 }
 
@@ -200,6 +198,16 @@ html {
 .btn-send:hover {
   background-color: #424bb3;
   color: white;
+}
+
+
+.qr-code{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  top: -400px;
+  width: 30%;
+  border: 5px solid green;
 }
 
 /* 4K 2560px
