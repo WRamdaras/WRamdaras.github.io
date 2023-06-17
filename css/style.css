@@ -76,7 +76,7 @@ html {
   color: #47fffc;
 }
 
-.inspiration-text{
+.inspiration-text {
   color: #47fffc;
   font-size: 30px;
 }
@@ -171,6 +171,122 @@ html {
   color: white;
 }
 
+.html-1 {
+  color: #e65100;
+  position: relative;
+}
+
+.tooltip-text-html {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: max-content;
+  height: 25px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: #e65100;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.fade-html {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.html-1:hover .fade-html {
+  opacity: 1;
+}
+
+.css-1 {
+  color: #2aa4f4;
+  position: relative;
+}
+
+.tooltip-text-css {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: max-content;
+  height: 25px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: #2aa4f4;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.fade-css {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.css-1:hover .fade-css {
+  opacity: 1;
+}
+
+.js-1 {
+  color: #f7df1e;
+  position: relative;
+}
+
+.tooltip-text-js {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: max-content;
+  height: 25px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: #f7df1e;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.fade-js {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.js-1:hover .fade-js {
+  opacity: 1;
+}
+
+.b-1 {
+  color: #673ab7;
+  position: relative;
+}
+
+.tooltip-text-b {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: max-content;
+  height: 25px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: #673ab7;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.fade-b {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.b-1:hover .fade-b {
+  opacity: 1;
+}
+
 /* Contact */
 .contact-down {
   margin-top: 300px;
@@ -205,7 +321,7 @@ html {
   color: white;
 }
 
-.qr-code{
+.qr-code {
   margin-left: 200px;
   width: 30%;
 }
@@ -263,7 +379,7 @@ html {
   .preview-btn {
     margin-left: 170px;
   }
-  .qr-code{
+  .qr-code {
     margin-left: 10px;
   }
 }
@@ -298,7 +414,7 @@ html {
   .btn-send {
     margin-left: 240px;
   }
-  .qr-code{
+  .qr-code {
     display: none;
   }
 }
