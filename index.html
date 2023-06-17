@@ -23,27 +23,27 @@
 </head>
 
 <!-- <body oncontextmenu="return false"> -->
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg nav-bg fixed-top">
+    <nav id="navbar-scroll" class="navbar navbar-expand-lg nav-bg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand fs-3 text-light" href="#"><span class="name-text">Wiresh</span> Ramdaras</a>
-          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Home">Home</a>
+                <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Mijn-info">About me</a>
+                <a class="nav-link" href="#mijn-info">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Projecten">Projects</a>
+                <a class="nav-link" href="#projecten">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               </ul>
           </div>
@@ -54,7 +54,7 @@
       </nav>
 
 
-      <div class="container-fluid" id="Home">
+      <div class="container-fluid" id="home">
         <div class="row">
           <div class="col-md">
             <h3 class="text-light fs-1 welcome-text">
@@ -75,7 +75,7 @@
 
 
       <!-- Mijn-info -->
-    <div class="container" id="Mijn-info">
+    <div class="container" id="mijn-info">
       <div class="row">
         <div class="col text-light about-text">
           <p class="fs-1 info-text">
@@ -119,7 +119,7 @@
       </div> 
     </div>
 
-    <div class="container project-scroll" id="Projecten">
+    <div class="container project-scroll" id="projecten">
       <p class="text-center project-text fs-1">
         Projects
       </p>
@@ -235,7 +235,7 @@
   action="https://formspree.io/f/xzbqwple"
   method="POST"
 >
-    <div class="container position-relative" id="Contact">
+    <div class="container position-relative" id="contact">
       <div class="row">
         <div class="col contact-down">
           <p class="fs-1 text-center contact-text">Contact</p>
@@ -278,7 +278,7 @@
             <p class="text-dark mt-5">Made by Wiresh Ramdaras</p>
         </div>
 </div>
-     
+
     <script src="js/main.js"></script>
 </body>
 
