@@ -23,27 +23,27 @@
 </head>
 
 <!-- <body oncontextmenu="return false"> -->
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-scroll">
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg nav-bg fixed-top">
+    <nav id="navbar-scroll" class="navbar navbar-expand-lg nav-bg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand fs-3 text-light" href="#"><span class="name-text">Wiresh</span> Ramdaras</a>
-          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Home">Home</a>
+                <a class="nav-link" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Mijn-info">About me</a>
+                <a class="nav-link" href="#mijn-info">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Projecten">Projects</a>
+                <a class="nav-link" href="#projecten">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-hover" href="#Contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
               </ul>
           </div>
@@ -53,8 +53,8 @@
         </div>
       </nav>
 
-<!-- Home -->
-      <div class="container-fluid" id="Home">
+
+      <div class="container-fluid" id="home">
         <div class="row">
           <div class="col-md">
             <h3 class="text-light fs-1 welcome-text">
@@ -75,7 +75,7 @@
 
 
       <!-- Mijn-info -->
-    <div class="container" id="Mijn-info">
+    <div class="container" id="mijn-info">
       <div class="row">
         <div class="col text-light about-text">
           <p class="fs-1 info-text">
@@ -84,7 +84,7 @@
           As an software developer, I am passionate about using technology to solve complex problems and make a positive impact on society. I am currently studying computer science and have gained knowledge in programming languages such as  JavaScript. I have experience with software development methodologies such as Scrum, and have worked on projects ranging from mobile app development to web development. I am eager to continue learning and growing my skills, and i am excited about the opportunities that lie ahead in the tech industry.
           <br>
           <br>
-          <button class="btn CV">CV<a href="#" download="CV"></a></button>
+          <a href="#" class="btn CV" download="CV">CV</a>
           <br>
           <br>
           <p class="inspiration-text">
@@ -93,6 +93,7 @@
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit doloribus quis ut deserunt fugit recusandae enim qui incidunt officia, distinctio porro eos voluptatem aperiam sed dicta provident quos assumenda ab.
           </p>
+          <a href="ppt/Inspiration.pptx" download="inspiration" class="btn inspiration">Inspiration</a>
         </div>
         <div class="col four-bars">
           <p class="text-light">HTML</p>
@@ -118,8 +119,7 @@
       </div> 
     </div>
 
-    <!-- Projecten -->
-    <div class="container project-scroll" id="Projecten">
+    <div class="container project-scroll" id="projecten">
       <p class="text-center project-text fs-1">
         Projects
       </p>
@@ -130,10 +130,10 @@
             <div class="card-body">
               <h5 class="card-title">Dashboard</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
-              <i class="fa-brands fa-bootstrap fa-2xl" style="color: #673ab7;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 50%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 50%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 50%</span></i>
+              <i class="fa-brands fa-bootstrap fa-2xl b-1"><span class="tooltip-text-b fade-b">B 50%</span></i>
               <div class="btn-toolbar">
                 <button class="btn preview-btn">Live preview</button>
                 <button class="btn source-btn">Source Code</button>
@@ -147,10 +147,10 @@
             <div class="card-body">
               <h5 class="card-title">Webcatalogus</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
-              <i class="fa-brands fa-bootstrap fa-2xl" style="color: #673ab7;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 70.5%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 9.4%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 20.1%</span></i>
+              <i class="fa-brands fa-bootstrap fa-2xl b-1"><span class="tooltip-text-b fade-b">B 50%</span></i>
               <div class="btn-toolbar">
                 <button class="btn preview-btn preview-btn-one">Live preview</button>
                 <button class="btn source-btn source-btn-one">Source Code</button>
@@ -166,9 +166,9 @@
             <div class="card-body">
               <h5 class="card-title">Netflix</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 79.3%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 17.6%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 3.1%</span></i>
               <div class="btn-toolbar">
                 <button class="btn preview-btn preview-btn-two">Live preview</button>
                 <button class="btn source-btn source-btn-two">Source Code</button>
@@ -182,9 +182,9 @@
             <div class="card-body">
               <h5 class="card-title">Escape room</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 41.2%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 25.7%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 33.1%</span></i>
               <div class="btn-toolbar">
                 <button class="btn preview-btn preview-btn-three">Live preview</button>
                 <button class="btn source-btn source-btn-three">Source Code</button>
@@ -200,9 +200,9 @@
             <div class="card-body">
               <h5 class="card-title">Tic Tac Toe</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 21.1%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 38.4%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 40.5%</span></i>
               <div class="btn-toolbar">
                 <button class="btn preview-btn preview-btn-four">Live preview</button>
                 <button class="btn source-btn source-btn-four">Source Code</button>
@@ -216,9 +216,9 @@
             <div class="card-body">
               <h5 class="card-title">Hoger Lager</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <i class="fa-brands fa-html5 fa-2xl" style="color: #e65100;"></i>
-              <i class="fa-brands fa-css3-alt fa-2xl" style="color: #2aa4f4;"></i>
-              <i class="fa-brands fa-js fa-2xl" style="color: #f7df1e;"></i>
+              <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 26.2%</span></i>
+              <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 39.1%</span></i>
+              <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 34.7%</span></i>
               <div class="btn-toolbar">
               <button class="btn preview-btn preview-btn-five">Live preview</button>
               <button class="btn source-btn source-btn-five">Source Code</button>
@@ -235,7 +235,7 @@
   action="https://formspree.io/f/xzbqwple"
   method="POST"
 >
-    <div class="container position-relative" id="Contact">
+    <div class="container position-relative" id="contact">
       <div class="row">
         <div class="col contact-down">
           <p class="fs-1 text-center contact-text">Contact</p>
@@ -279,7 +279,7 @@
             <p class="text-dark mt-5">Made by Wiresh Ramdaras</p>
         </div>
 </div>
-     
+
     <script src="js/main.js"></script>
 </body>
 
