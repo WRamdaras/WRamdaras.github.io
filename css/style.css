@@ -391,6 +391,9 @@ html {
     background-color: #8d2ca0;
     color: white;
   }
+  .progress-bar{
+    margin-top: -1px;
+  }
   .welcome-text {
     margin-top: 400px;
     margin-left: 10px;
@@ -426,6 +429,9 @@ html {
   .navbar-toggler {
     background-color: #8d2ca0;
     color: white;
+  }
+  .progress-bar{
+    margin-top: -2px;
   }
   /* Home */
   .welcome-text {
@@ -536,6 +542,9 @@ html {
 @media only screen and (max-width: 320px) {
   .blob {
     width: 300px;
+  }
+  .progress-bar{
+    margin-top: -3px;
   }
   .img-me {
     width: 250px;
