@@ -84,6 +84,13 @@ linkedinBtn.addEventListener("click", function (link) {
   window.open("https://nl.linkedin.com/in/wiresh-ramdaras-954a09276");
 });
 
+// Inspiration link
+let inspirationLink = document.querySelector(".inspiration-link");
+inspirationLink.addEventListener("click", function(link){
+  link.preventDefault();
+  window.open("https://sbechoe.github.io/");
+})
+
 // Progress bar
 const progressBar = document.querySelector(".progress-bar");
 const totalHeight = document.body.scrollHeight - window.innerHeight;
