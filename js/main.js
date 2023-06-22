@@ -2,12 +2,12 @@
 let sourceCodeDashboard = document.querySelector(".source-btn");
 sourceCodeDashboard.addEventListener("click", function (link) {
   link.preventDefault();
-  window.open("");
+  window.open("https://github.com/WRamdaras/dashboard");
 });
 let = previewBtnDashboard = document.querySelector(".preview-btn");
 previewBtnDashboard.addEventListener("click", function (link) {
   link.preventDefault();
-  window.open("");
+  window.open("https://wramdaras.github.io/dashboard/index.html");
 });
 
 // Webcatalogus
