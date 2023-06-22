@@ -2,12 +2,12 @@
 let sourceCodeDashboard = document.querySelector(".source-btn");
 sourceCodeDashboard.addEventListener("click", function (link) {
   link.preventDefault();
-  window.open("");
+  window.open("https://github.com/WRamdaras/dashboard");
 });
 let = previewBtnDashboard = document.querySelector(".preview-btn");
 previewBtnDashboard.addEventListener("click", function (link) {
   link.preventDefault();
-  window.open("");
+  window.open("https://wramdaras.github.io/dashboard/index.html");
 });
 
 // Webcatalogus
@@ -99,3 +99,9 @@ window.onscroll = function () {
   const progressHeight = (window.pageYOffset / totalHeight) * 100;
   progressBar.style.width = progressHeight + "%";
 };
+
+// reset contact
+let contactReset = document.querySelector(".contact-form")
+contactReset.addEventListener("submit",   function(){
+  this.reset();
+})
