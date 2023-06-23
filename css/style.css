@@ -56,7 +56,8 @@ html {
 }
 
 .img-me {
-  height: 685px;
+  height: 650px;
+  margin-left: 250px;
   margin-top: 100px;
   object-fit: cover;
   overflow: hidden;
@@ -353,10 +354,10 @@ html {
     margin-top: 200px;
   }
   .img-me {
-    width: 500px;
-    height: 500px;
-    margin-top: 290px;
-    margin-left: 90px;
+    /* width: 200px; */
+    /* height : 200px; */
+    margin-top: 200px;
+    margin-left: 200px;
   }
 }
 /* Laptop 1024px*/
@@ -370,10 +371,10 @@ html {
     width: 500px;
   }
   .img-me {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     margin-top: 200px;
-    margin-left: 20px;
+    margin-left: 150px;
   }
   .project-card {
     width: 100%;
@@ -407,8 +408,8 @@ html {
   }
   .img-me {
     margin-top: 250px;
-    width: 330px;
-    height: 330px;
+    width: 200px;
+    margin-left: 60px;
   }
   .preview-btn {
     margin-left: 50px;
@@ -447,10 +448,10 @@ html {
     /* margin-right: 100px; */
   }
   .img-me {
-    width: 400px;
-    height: 400px;
+    /* width: 400px; */
+    /* height: 400px; */
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: 130px;
   }
   /* About me */
   .four-bars {
@@ -521,9 +522,11 @@ html {
     width: 350px;
   }
   .img-me {
-    width: 300px;
-    height: 300px;
-    margin-left: 30px;
+    /* width: 300px; */
+    /* height: 300px; */
+    /* margin-left: 100px; */
+    margin-right: 100px;
+   
   }
   .progress {
     width: 340%;
