@@ -342,10 +342,10 @@ html {
     width: 600px;
     margin-top: 100px;
   }
-  .img-me {
-    width: 550px;
-    height: 550px;
-  }
+  /* .img-me {
+    width: 100px;
+    height: 100px;
+  } */
 }
 /* Laptop L 1440px*/
 @media only screen and (max-width: 1440px) {
@@ -371,8 +371,8 @@ html {
     width: 500px;
   }
   .img-me {
-    width: 200px;
-    height: 500px;
+    /* width: 200px; */
+    /* height: 400px; */
     margin-top: 200px;
     margin-left: 150px;
   }
@@ -408,7 +408,7 @@ html {
   }
   .img-me {
     margin-top: 250px;
-    width: 200px;
+    /* width: 200px; */
     margin-left: 60px;
   }
   .preview-btn {
@@ -496,10 +496,9 @@ html {
   .blob {
     width: 400px;
   }
-  .img-me {
-    width: 350px;
-    height: 350px;
-  }
+  /* .img-me {
+    margin: auto;
+  } */
   .progress {
     width: 390%;
   }
@@ -522,11 +521,7 @@ html {
     width: 350px;
   }
   .img-me {
-    /* width: 300px; */
-    /* height: 300px; */
-    /* margin-left: 100px; */
-    margin-right: 100px;
-   
+   margin: auto;
   }
   .progress {
     width: 340%;
@@ -553,8 +548,7 @@ html {
     margin-top: -3px;
   }
   .img-me {
-    width: 250px;
-    height: 250px;
+    margin: auto;
   }
   .info-text {
     text-align: center;
