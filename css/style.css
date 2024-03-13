@@ -93,26 +93,31 @@ html {
 }
 
 .bar-one {
-  width: 50%;
+  width: 75%;
   background-color: #e65100;
 }
 
 .bar-two {
-  width: 50%;
+  width: 80%;
   background-color: #2aa4f4;
 }
 
 .bar-three {
-  width: 50%;
+  width: 40%;
   background-color: #f7df1e;
 }
 
 .bar-four {
-  width: 50%;
+  width: 70%;
   background-color: #673ab7;
 }
 
 .bar-five {
+  width: 40%;
+  background-color: #AEB2D5;
+}
+
+.bar-six {
   width: 50%;
   background-color: #AEB2D5;
 }
@@ -360,11 +365,6 @@ html {
 .btn-send:hover {
   background-color: #424bb3;
   color: white;
-}
-
-.qr-code {
-  margin-left: 200px;
-  width: 30%;
 }
 
 /* 4K 2560px
