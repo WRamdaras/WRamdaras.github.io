@@ -70,6 +70,30 @@ previewBtnHogerLager.addEventListener("click", function (link) {
   window.open("https://wramdaras.github.io/HigherLower/");
 });
 
+// AnimeHub
+let sourceCodeAnimeHub = document.querySelector(".source-btn-six");
+sourceCodeAnimeHub.addEventListener("click", function (link) {
+  link.preventDefault();
+  window.open("https://github.com/WRamdaras/animehub");
+});
+// let = previewBtnAnimeHub = document.querySelector(".preview-btn-six");
+// previewBtnAnimeHub.addEventListener("click", function (link) {
+//   link.preventDefault();
+//   window.open("https://wramdaras.github.io/HigherLower/");
+// });
+
+// Football-shirts
+let sourceCodeFBshirts = document.querySelector(".source-btn-seven");
+sourceCodeFBshirts.addEventListener("click", function (link) {
+  link.preventDefault();
+  // window.open("https://github.com/WRamdaras/animehub");
+});
+let = previewBtnFBshirts = document.querySelector(".preview-btn-seven");
+previewBtnFBshirts.addEventListener("click", function (link) {
+  link.preventDefault();
+  // window.open("https://wramdaras.github.io/HigherLower/");
+});
+
 // Github link
 let ghLink = document.querySelector(".bi-github");
 ghLink.addEventListener("click", function (link) {

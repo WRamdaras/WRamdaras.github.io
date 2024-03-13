@@ -298,6 +298,36 @@ html {
   opacity: 1;
 }
 
+.php-icon{
+  color: #B197FC;
+  position: relative;
+}
+
+.tooltip-text-php {
+  position: absolute;
+  top: -40px;
+  left: -50%;
+  z-index: 2;
+  width: max-content;
+  height: 25px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  background-color: #673ab7;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.fade-php {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.php-1:hover .fade-php {
+  opacity: 1;
+}
+
+
 /* Contact */
 .contact-down {
   margin-top: 300px;
