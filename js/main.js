@@ -23,28 +23,28 @@ previewBtnWebcatalogus.addEventListener("click", function (link) {
 });
 
 // Netflix
-let sourceCodeNetflix = document.querySelector(".source-btn-two");
-sourceCodeNetflix.addEventListener("click", function (link) {
-  link.preventDefault();
-  window.open("https://github.com/WRamdaras/netflix");
-});
-let = previewNetflix = document.querySelector(".preview-btn-two");
-previewNetflix.addEventListener("click", function (link) {
-  link.preventDefault();
-  window.open("https://wramdaras.github.io/netflix/");
-});
+// let sourceCodeNetflix = document.querySelector(".source-btn-two");
+// sourceCodeNetflix.addEventListener("click", function (link) {
+//   link.preventDefault();
+//   window.open("https://github.com/WRamdaras/netflix");
+// });
+// let = previewNetflix = document.querySelector(".preview-btn-two");
+// previewNetflix.addEventListener("click", function (link) {
+//   link.preventDefault();
+//   window.open("https://wramdaras.github.io/netflix/");
+// });
 
-// Escape Room
-let sourceCodeEscapeRoom = document.querySelector(".source-btn-three");
-sourceCodeEscapeRoom.addEventListener("click", function (link) {
-  link.preventDefault();
-  window.open("https://github.com/WRamdaras/Escape-Room");
-});
-let = previewBtnEscapeRoom = document.querySelector(".preview-btn-three");
-previewBtnEscapeRoom.addEventListener("click", function (link) {
-  link.preventDefault();
-  window.open("https://wramdaras.github.io/Escape-Room/");
-});
+// // Escape Room
+// let sourceCodeEscapeRoom = document.querySelector(".source-btn-three");
+// sourceCodeEscapeRoom.addEventListener("click", function (link) {
+//   link.preventDefault();
+//   window.open("https://github.com/WRamdaras/Escape-Room");
+// });
+// let = previewBtnEscapeRoom = document.querySelector(".preview-btn-three");
+// previewBtnEscapeRoom.addEventListener("click", function (link) {
+//   link.preventDefault();
+//   window.open("https://wramdaras.github.io/Escape-Room/");
+// });
 
 // Tic Tac Toe
 let sourceCodeBKE = document.querySelector(".source-btn-four");
