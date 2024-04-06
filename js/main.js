@@ -8,7 +8,7 @@ window.onscroll = function () {
 };
 
 // reset contact
-window.addEventListener('unload', function() {
+window.addEventListener('unload', function () {
   let contactForm = document.querySelector(".contact-form");
   contactForm.reset();
 });

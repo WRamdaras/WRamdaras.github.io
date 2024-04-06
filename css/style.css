@@ -115,12 +115,12 @@ html {
 
 .bar-five {
   width: 40%;
-  background-color: #AEB2D5;
+  background-color: #4F5D95;
 }
 
 .bar-six {
   width: 50%;
-  background-color: #AEB2D5;
+  background-color: #0000FF;
 }
 
 .CV {
@@ -205,7 +205,7 @@ html {
   font-size: 20px;
   background-color: #e65100;
   border-radius: 10px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 10px 15px;
 }
 
 .fade-html {
@@ -234,7 +234,7 @@ html {
   font-size: 20px;
   background-color: #2aa4f4;
   border-radius: 10px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 10px 15px;
 }
 
 .fade-css {
@@ -263,7 +263,7 @@ html {
   font-size: 20px;
   background-color: #f7df1e;
   border-radius: 10px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 10px 15px;
 }
 
 .fade-js {
@@ -292,7 +292,7 @@ html {
   font-size: 20px;
   background-color: #673ab7;
   border-radius: 10px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 10px 15px;
 }
 
 .fade-b {
@@ -321,7 +321,7 @@ html {
   font-size: 20px;
   background-color: #673ab7;
   border-radius: 10px;
-  padding: 10px 15px 10px 15px;
+  padding: 12px 15px 10px 15px;
 }
 
 .fade-php {
@@ -382,7 +382,7 @@ html {
 
   .blob {
     margin-top: 150px;
-    width: 500px;
+    width: 50%;
   }
 
   .img-me {
@@ -421,7 +421,7 @@ html {
 
   .blob {
     margin-top: 300px;
-    width: 350px;
+    width: 35%;
   }
 
   .img-me {
@@ -432,6 +432,11 @@ html {
 
   .preview-btn {
     margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  .source-btn {
+    margin-top: 10px;
   }
 
   .contact-text {
@@ -470,14 +475,10 @@ html {
   }
 
   .blob {
-    width: 460px;
     margin-top: 100px;
-    /* margin-right: 100px; */
   }
 
   .img-me {
-    /* width: 400px; */
-    /* height: 400px; */
     margin-top: 90px;
     margin-left: 130px;
   }
@@ -504,16 +505,15 @@ html {
   }
 
   .project-card {
-    width: 440px;
     margin-left: 10px;
   }
 
-  .project-img {
-    width: 440px;
+  .preview-btn {
+    margin-top: 10px;
   }
 
-  .preview-btn {
-    margin-left: 160px;
+  .source-btn {
+    margin-top: 10px;
   }
 
   /* Contact */
