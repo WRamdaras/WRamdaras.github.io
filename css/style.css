@@ -11,20 +11,21 @@ html {
   width: 0px;
 }
 
-::selection{
-    background-color: #8D2CA0;
+::selection {
+  background-color: #8D2CA0;
 }
+
 /* Navbar */
 .name-text {
   color: #8d2ca0;
 }
 
-.nav-link{
+.nav-link {
   color: white;
 }
 
 .navbar .nav-link.active,
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
   color: #47fffc;
   font-weight: bolder;
 }
@@ -82,7 +83,7 @@ html {
   font-size: 30px;
 }
 
-.inspiration-link{
+.inspiration-link {
   text-decoration: none;
   color: #47fffc;
 }
@@ -303,7 +304,7 @@ html {
   opacity: 1;
 }
 
-.php-icon{
+.php-icon {
   color: #B197FC;
   position: relative;
 }
@@ -367,243 +368,160 @@ html {
   color: white;
 }
 
-/* 4K 2560px
-@media only screen and (max-width: 2560px){
 
-} */
-/* Laptop XL 1281px*/
-@media only screen and (max-width: 1281px) {
-  .blob {
-    width: 600px;
-    margin-top: 100px;
-  }
-  /* .img-me {
-    width: 100px;
-    height: 100px;
-  } */
-}
-/* Laptop L 1440px*/
-@media only screen and (max-width: 1440px) {
-  .blob {
-    width: 650px;
-    margin-top: 200px;
-  }
-  .img-me {
-    /* width: 200px; */
-    /* height : 200px; */
-    margin-top: 200px;
-    margin-left: 200px;
-  }
-}
 /* Laptop 1024px*/
 @media only screen and (max-width: 1024px) {
+  .progress-container {
+    display: none;
+  }
+
   .welcome-text {
     margin-top: 400px;
     margin-left: 10px;
   }
+
   .blob {
     margin-top: 150px;
     width: 500px;
   }
+
   .img-me {
-    /* width: 200px; */
-    /* height: 400px; */
     margin-top: 200px;
     margin-left: 150px;
   }
+
   .project-card {
     width: 100%;
   }
+
   .project-img {
     width: 100%;
   }
+
   .preview-btn {
     margin-left: 170px;
   }
-  .qr-code {
-    margin-left: 10px;
-  }
 }
+
 /* Tablet 768px*/
 @media only screen and (max-width: 768px) {
+  .progress-container {
+    display: none;
+  }
+
   .navbar-toggler {
     background-color: #8d2ca0;
     color: white;
   }
-  .progress-bar{
-    margin-top: -1px;
-  }
+
   .welcome-text {
     margin-top: 400px;
     margin-left: 10px;
   }
+
   .blob {
     margin-top: 300px;
     width: 350px;
   }
+
   .img-me {
     margin-top: 250px;
     /* width: 200px; */
     margin-left: 60px;
   }
+
   .preview-btn {
     margin-left: 50px;
   }
+
   .form-control {
     margin-left: 170px;
   }
+
   .form-label {
     margin-left: 175px;
   }
+
   .btn-send {
     margin-left: 240px;
   }
-  .qr-code {
-    display: none;
-  }
 }
+
 /* mobile */
 @media only screen and (max-width: 480px) {
+  .progress-container {
+    display: none;
+  }
+
   /* Navbar */
   .navbar-toggler {
     background-color: #8d2ca0;
     color: white;
   }
-  .progress-bar{
-    margin-top: -2px;
-  }
+
   /* Home */
   .welcome-text {
     margin-top: 100px;
     margin-left: 10px;
   }
+
   .blob {
     width: 460px;
     margin-top: 100px;
     /* margin-right: 100px; */
   }
+
   .img-me {
     /* width: 400px; */
     /* height: 400px; */
     margin-top: 90px;
     margin-left: 130px;
   }
+
   /* About me */
   .four-bars {
     margin-top: 100px;
     margin-right: 300px;
   }
+
   .info-text {
     text-align: center;
   }
+
   .progress {
     width: 290%;
   }
+
   /* Projects */
   .project-text {
     text-align: center;
   }
+
   .project-card {
     width: 440px;
     margin-left: 10px;
   }
+
   .project-img {
     width: 440px;
   }
+
   .preview-btn {
     margin-left: 160px;
   }
+
   /* Contact */
   .form-control {
     width: 96%;
     margin-left: 10px;
   }
+
   .form-label {
     margin-left: 10px;
   }
+
   .btn-send {
     margin: 0 auto;
     display: block;
-  }
-}
-/* Mobile L 425px*/
-@media only screen and (max-width: 425px) {
-  .blob {
-    width: 400px;
-  }
-  /* .img-me {
-    margin: auto;
-  } */
-  .progress {
-    width: 390%;
-  }
-  .project-card {
-    width: 385px;
-  }
-  .project-img {
-    width: 385px;
-  }
-  .preview-btn {
-    margin-left: 105px;
-  }
-  .form-control {
-    width: 95%;
-  }
-}
-/* Mobile M 375px*/
-@media only screen and (max-width: 375px) {
-  .blob {
-    width: 350px;
-  }
-  .img-me {
-   margin: auto;
-  }
-  .progress {
-    width: 340%;
-  }
-  .project-card {
-    width: 335px;
-  }
-  .project-img {
-    width: 335px;
-  }
-  .preview-btn {
-    margin-left: 55px;
-  }
-  .form-control {
-    width: 95%;
-  }
-}
-/* Mobile S 320px*/
-@media only screen and (max-width: 320px) {
-  .blob {
-    width: 300px;
-  }
-  .progress-bar{
-    margin-top: -3px;
-  }
-  .img-me {
-    margin: auto;
-  }
-  .info-text {
-    text-align: center;
-  }
-  .four-bars {
-    margin-top: 10px;
-  }
-  .progress {
-    width: 280%;
-  }
-  .project-card {
-    width: 280px;
-  }
-  .project-img {
-    width: 280px;
-  }
-  .preview-btn {
-    margin-left: 1px;
-  }
-  .form-control {
-    width: 95%;
   }
 }
