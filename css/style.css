@@ -434,6 +434,10 @@ html {
     margin-left: 50px;
   }
 
+  .contact-text {
+    text-align: center;
+  }
+
   .form-control {
     margin-left: 170px;
   }
@@ -486,6 +490,7 @@ html {
 
   .info-text {
     text-align: center;
+    margin-top: 430px;
   }
 
   .progress {
@@ -495,6 +500,7 @@ html {
   /* Projects */
   .project-text {
     text-align: center;
+    margin-top: 100px;
   }
 
   .project-card {
@@ -514,6 +520,10 @@ html {
   .form-control {
     width: 96%;
     margin-left: 10px;
+  }
+
+  .contact-down {
+    margin-top: 100px;
   }
 
   .form-label {
