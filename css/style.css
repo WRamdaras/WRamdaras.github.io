@@ -50,16 +50,10 @@ html {
   width: 0;
 }
 
-/* Home bg */
-.blob {
-  z-index: -1;
-  position: absolute;
-}
-
 .img-me {
   height: 650px;
   margin-left: 250px;
-  margin-top: 100px;
+  margin-top: 150px;
   object-fit: cover;
   overflow: hidden;
 }
@@ -380,14 +374,11 @@ html {
     margin-left: 10px;
   }
 
-  .blob {
-    margin-top: 150px;
-    width: 50%;
-  }
-
   .img-me {
     margin-top: 200px;
-    margin-left: 150px;
+    margin-left: 10px;
+    width: 400px;
+    height: 500px;
   }
 
   .project-card {
@@ -419,14 +410,8 @@ html {
     margin-left: 10px;
   }
 
-  .blob {
-    margin-top: 300px;
-    width: 35%;
-  }
-
   .img-me {
     margin-top: 250px;
-    /* width: 200px; */
     margin-left: 60px;
   }
 
@@ -474,13 +459,9 @@ html {
     margin-left: 10px;
   }
 
-  .blob {
-    margin-top: 100px;
-  }
-
   .img-me {
     margin-top: 90px;
-    margin-left: 130px;
+    margin-left: 30px;
   }
 
   /* About me */
@@ -491,7 +472,6 @@ html {
 
   .info-text {
     text-align: center;
-    margin-top: 430px;
   }
 
   .progress {
