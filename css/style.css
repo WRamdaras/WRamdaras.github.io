@@ -51,17 +51,10 @@ html {
 }
 
 .img-me {
-  height: 650px;
-  margin-left: 250px;
+  box-shadow: 4px 3px 12px 0px #8d2ca0;
   margin-top: 150px;
-  object-fit: cover;
-  overflow: hidden;
 }
 
-.welcome-text {
-  margin-top: 450px;
-  margin-left: 200px;
-}
 
 /* About me */
 .four-bars {
