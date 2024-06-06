@@ -32,31 +32,31 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ">
           <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link " href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#mijn-info">About me</a>
+            <a class="nav-link " href="#mijn-info">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projecten">Projects</a>
+            <a class="nav-link " href="#projecten">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link " href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
-    <div class="progress-container">
-      <div class="progress-bar"></div>
+    <div class="progress-container w-100 position-fixed">
+      <div class="progress-bar h-100"></div>
     </div>
   </nav>
 
 
   <div class="container-fluid mt-5 pt-5" id="home">
     <div class="row">
-    <div class="col-md-1"></div>
+      <div class="col-md-1"></div>
       <div class="col-md-5 d-flex align-items-center">
         <h3 class="text-light fs-1">
           Portfolio of <br> <span class="name-text">Wiresh Ramdaras</span>
@@ -69,12 +69,16 @@
   </div>
 
   <!-- Mijn-info -->
-  <div class="container" id="mijn-info">
+  <div class="container c-margin" id="mijn-info">
     <div class="row">
-      <div class="col text-light about-text">
+      <div class="col-sm-12">
         <p class="fs-1 info-text">
           About me
         </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-light about-text">
         <p> As an software developer, I am passionate about using technology to solve complex problems and make a
           positive
           impact on society. I am currently studying computer science and have gained knowledge in programming languages
@@ -82,7 +86,7 @@
           worked on projects ranging from mobile app development to web development. I am eager to continue learning and
           growing my skills, and i am excited about the opportunities that lie ahead in the tech industry.
         </p>
-        <a href="cv/CV Wiresh Ramdaras.docx" class="btn CV" download="CV Wiresh Ramdaras">CV</a>
+        <a href="cv/CV Wiresh Ramdaras.docx" class="btn CV w-25" download="CV Wiresh Ramdaras">CV</a>
         <p class="inspiration-text mt-5">
           Inspiration
         </p>
@@ -94,51 +98,51 @@
           appealing elements, and overall professional presentation can serve as a motivating reference for building
           one's own portfolio.
         </p>
-        <a href="ppt/Inspiration.pptx" download="inspiration" class="btn inspiration">Inspiration</a>
+        <a href="ppt/Inspiration.pptx" download="inspiration" class="btn inspiration w-25">Inspiration</a>
       </div>
       <div class="col four-bars">
         <p class="text-light">HTML</p>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-one"></div>
+          <div class="progress-bar html-bar"></div>
         </div>
         <p class="text-light">CSS</p>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-two"></div>
+          <div class="progress-bar css-bar"></div>
         </div>
         <p class="text-light">JAVASCRIPT</p>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-three"></div>
+          <div class="progress-bar javascript-bar"></div>
         </div>
         <P class="text-light">BOOTSTRAP</P>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-four"></div>
+          <div class="progress-bar bootstrap-bar"></div>
         </div>
         <P class="text-light">PHP</P>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-five"></div>
+          <div class="progress-bar php-bar"></div>
         </div>
         <P class="text-light">SYMFONY</P>
         <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
           aria-valuemax="100">
-          <div class="progress-bar bar-six"></div>
+          <div class="progress-bar symfony-bar"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container project-scroll" id="projecten">
+  <div class="container project-scroll c-margin" id="projecten">
     <p class="text-center project-text fs-1">
       Projects
     </p>
     <div class="row">
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card ">
-          <img src="img/dashboard.png" class="card-img-top project-img" alt="...">
+          <img src="img/dashboard.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">Dashboard</h5>
             <p class="card-text">The Dashboard Project is a collaborative effort by a Scrum group of three individuals,
@@ -151,8 +155,8 @@
             <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 9.7%</span></i>
             <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 17.4%</span></i>
             <i class="fa-brands fa-bootstrap fa-2xl b-1"><span class="tooltip-text-b fade-b">B 50%</span></i>
-            <div class="btn-toolbar">
-              <a href="https://wramdaras.github.io/dashboard/index.html" target="_blank" class="btn preview-btn">Live
+            <div class="btn-toolbar d-flex justify-content-end">
+              <a href="https://wramdaras.github.io/dashboard/index.html" target="_blank" class="btn preview-btn me-2">Live
                 preview</a>
               <a href="https://github.com/WRamdaras/dashboard" target="_blank" class="btn source-btn">Source Code</a>
             </div>
@@ -161,7 +165,7 @@
       </div>
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card">
-          <img src="img/Webcatalogus.png" class="card-img-top project-img" alt="...">
+          <img src="img/Webcatalogus.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">Webcatalogus</h5>
             <p class="card-text">The Web Catalog Project is a collaborative effort by a Scrum group of three
@@ -174,11 +178,11 @@
             <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 9.4%</span></i>
             <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 20.1%</span></i>
             <i class="fa-brands fa-bootstrap fa-2xl b-1"><span class="tooltip-text-b fade-b">B 50%</span></i>
-            <div class="btn-toolbar">
+            <div class="btn-toolbar d-flex justify-content-end">
               <a href="https://wramdaras.github.io/Webcatalogus/" target="_blank"
-                class="btn preview-btn preview-btn-one">Live preview</a>
+                class="btn preview-btn me-2">Live preview</a>
               <a href="https://github.com/WRamdaras/Webcatalogus" target="_blank"
-                class="btn source-btn source-btn-one">Source Code</a>
+                class="btn source-btn">Source Code</a>
             </div>
           </div>
         </div>
@@ -187,7 +191,7 @@
     <div class="row">
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card">
-          <img src="img/TTT.png" class="card-img-top project-img" alt="...">
+          <img src="img/TTT.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">Tic Tac Toe</h5>
             <p class="card-text">The Tic Tac Toe Game is a visually appealing web project created using HTML, CSS, and
@@ -196,18 +200,18 @@
             <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 21.1%</span></i>
             <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 38.4%</span></i>
             <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 40.5%</span></i>
-            <div class="btn-toolbar">
+            <div class="btn-toolbar d-flex justify-content-end">
               <a href="https://wramdaras.github.io/TicTacToe/" target="_blank"
-                class="btn preview-btn preview-btn-four">Live preview</a>
+                class="btn preview-btn me-2">Live preview</a>
               <a href="https://github.com/WRamdaras/TicTacToe" target="_blank"
-                class="btn source-btn source-btn-four">Source Code</a>
+                class="btn source-btn">Source Code</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card">
-          <img src="img/HL.png" class="card-img-top project-img" alt="...">
+          <img src="img/HL.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">Higher Lower</h5>
             <p class="card-text">The Higher Lower Dice Game is an engaging web project created using HTML, CSS, and
@@ -217,11 +221,11 @@
             <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML 26.2%</span></i>
             <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 39.1%</span></i>
             <i class="fa-brands fa-js fa-2xl js-1"><span class="tooltip-text-js fade-js">JS 34.7%</span></i>
-            <div class="btn-toolbar">
+            <div class="btn-toolbar d-flex justify-content-end">
               <a href="https://wramdaras.github.io/HigherLower/" target="_blank"
-                class="btn preview-btn preview-btn-five">Live preview</a>
+                class="btn preview-btn me-2">Live preview</a>
               <a href="https://github.com/WRamdaras/HigherLower" target="_blank"
-                class="btn source-btn source-btn-five">Source Code</a>
+                class="btn source-btn">Source Code</a>
             </div>
           </div>
         </div>
@@ -230,7 +234,7 @@
     <div class="row">
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card">
-          <img src="img/AH.PNG" class="card-img-top project-img" alt="...">
+          <img src="img/AH.PNG" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">AnimeHub</h5>
             <p class="card-text">AnimeHub, a PHP-based platform, utilizes CRUD operations and the MVC architectural
@@ -240,17 +244,17 @@
             <i class="fa-brands fa-php fa-2xl php-icon php-1"><span class="tooltip-text-php fade-php">PHP
                 95.9%</span></i>
             <i class="fa-brands fa-css3-alt fa-2xl css-1"><span class="tooltip-text-css fade-css">CSS 0.5%</span></i>
-            <div class="btn-toolbar">
+            <div class="btn-toolbar d-flex justify-content-end">
               <a href="https://github.com/WRamdaras/animehub" target="_blank"
-                class="btn preview-btn preview-btn-six disabled mb-1">Live preview</a>
-              <a href="" class="btn source-btn source-btn-six mb-1">Source Code</a>
+                class="btn preview-btn me-2 disabled mb-1">Live preview</a>
+              <a href="" class="btn source-btn mb-1">Source Code</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 mb-3">
         <div class="card mx-auto project-card">
-          <img src="img/fb-shirts.png" class="card-img-top project-img" alt="...">
+          <img src="img/fb-shirts.png" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h5 class="card-title">FB-Shirts</h5>
             <p class="card-text">The Football Shirts project, currently in the making, is crafted with PHP Symfony. It
@@ -261,9 +265,9 @@
                 65.3%</span></i>
             <i class="fa-brands fa-html5 fa-2xl html-1"><span class="tooltip-text-html fade-html">HTML TWIG
                 31.0%</span></i>
-            <div class="btn-toolbar">
-              <button class="btn preview-btn preview-btn-seven disabled">Live preview</button>
-              <button class="btn source-btn source-btn-seven disabled">Source Code</button>
+            <div class="btn-toolbar d-flex justify-content-end">
+              <button class="btn preview-btn me-2 disabled">Live preview</button>
+              <button class="btn source-btn disabled">Source Code</button>
             </div>
           </div>
         </div>
@@ -273,11 +277,11 @@
 
 
   <!-- Contact -->
-  <form action="https://formspree.io/f/xzbqwple" method="POST" class="contact-form">
-    <div class="container position-relative" id="contact">
-      <div class="row">
-        <div class="col contact-down">
-          <p class="fs-1 contact-text">Contact</p>
+  <div class="container  c-margin" id="contact">
+    <div class="row">
+      <div class="col">
+        <p class="fs-1 contact-text">Contact</p>
+        <form action="https://formspree.io/f/xzbqwple" method="POST" class="contact-form">
           <div class="col align-content-center">
             <div class="mb-3">
               <label for="Voornaam" class="form-label ">Firstname</label>
@@ -299,26 +303,28 @@
             </div>
           </div>
           <div class="col">
-            <button type="submit" id="btn" class="btn border-white btn-send ">Send</button>
+            <button type="submit" id="btn" class="btn border-white btn-send">Send</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
-
-  </form>
+  </div>
 
   <!-- Footer -->
   <div class="container">
+    <div class="row">
     <div class="col text-center icons mt-5">
       <a href="https://github.com/WRamdaras" target="_blank"><i class="bi bi-github text-light fs-1"></i></a>
       <a href="https://nl.linkedin.com/in/wiresh-ramdaras-954a09276" target="_blank"><i
           class="bi bi-linkedin text-light fs-1"></i></a>
     </div>
+  </div>
+  <div class="row">
     <div class="col text-center">
       <p class="text-light mt-5">Made by Wiresh Ramdaras</p>
     </div>
   </div>
-
+</div>
   <script src="js/main.js"></script>
 </body>
 
