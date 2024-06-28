@@ -51,8 +51,13 @@ html {
 }
 
 .img-me {
-  box-shadow: 4px 3px 12px 0px #8d2ca0;
-  margin-top: 150px;
+  box-shadow: 4px 3px 12px 0px #8d2ca08a;
+  transition: transform 0.5s;
+}
+
+.img-me:hover{
+  box-shadow: 4px 3px 12px 0px #ffffff8a;
+  transform: scale(1.1);  
 }
 
 
