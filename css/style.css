@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* :root{
+--bs-nav-link-color: white;
+} */
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -20,14 +24,14 @@ html {
   color: #8d2ca0;
 }
 
-.nav-link {
-  color: white;
-}
-
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
   color: #47fffc;
   font-weight: bolder;
+}
+
+.nav-link{
+  color: white;
 }
 
 .nav-bg {
@@ -37,15 +41,11 @@ html {
 }
 
 .progress-container {
-  position: fixed;
-  width: 100%;
   height: 10px;
-  background-color: transparent;
   margin-top: 75px;
 }
 
 .progress-bar {
-  height: 100%;
   background-color: #8d2ca0;
   width: 0;
 }
@@ -54,7 +54,7 @@ html {
   box-shadow: 4px 3px 12px 0px #8d2ca08a;
   transition: transform 0.5s;
 }
-
+ 
 .img-me:hover{
   box-shadow: 4px 3px 12px 0px #ffffff8a;
   transform: scale(1.1);  
@@ -62,12 +62,12 @@ html {
 
 
 /* About me */
-.four-bars {
-  margin-top: 300px;
-}
-
 .info-text {
   color: #47fffc;
+}
+
+.c-margin{
+  margin-top: 250px;
 }
 
 .inspiration-text {
@@ -81,36 +81,35 @@ html {
 }
 
 .about-text {
-  margin-top: 250px;
   font-size: 20px;
 }
 
-.bar-one {
+.html-bar {
   width: 75%;
   background-color: #e65100;
 }
 
-.bar-two {
+.css-bar {
   width: 80%;
   background-color: #2aa4f4;
 }
 
-.bar-three {
+.javascript-bar {
   width: 40%;
   background-color: #f7df1e;
 }
 
-.bar-four {
+.bootstrap-bar {
   width: 70%;
   background-color: #673ab7;
 }
 
-.bar-five {
+.php-bar {
   width: 40%;
   background-color: #4F5D95;
 }
 
-.bar-six {
+.symfony-bar {
   width: 50%;
   background-color: #0000FF;
 }
@@ -118,7 +117,6 @@ html {
 .CV {
   color: white;
   background-color: #424bb3;
-  width: 100px;
   border: 2px solid white;
 }
 
@@ -131,7 +129,6 @@ html {
   color: white;
   background-color: #424bb3;
   border: 2px solid white;
-  /* text-decoration: none; */
 }
 
 .inspiration:hover {
@@ -145,11 +142,6 @@ html {
 
 .project-text {
   color: #47fffc;
-  margin-top: 400px;
-}
-
-.project-img {
-  width: 500px;
 }
 
 .project-card {
@@ -161,7 +153,6 @@ html {
 .preview-btn {
   background-color: #424bb3;
   color: white;
-  margin-left: 220px;
 }
 
 .preview-btn:hover {
@@ -172,7 +163,7 @@ html {
 .source-btn {
   background-color: #424bb3;
   color: white;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .source-btn:hover {
@@ -327,10 +318,6 @@ html {
 
 
 /* Contact */
-.contact-down {
-  margin-top: 300px;
-}
-
 .contact-text {
   color: #47fffc;
 }
