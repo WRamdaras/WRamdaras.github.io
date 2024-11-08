@@ -1,3 +1,5 @@
+import 'flowbite';
+
 // Progress bar
 const progressBar = document.querySelector(".progress-bar");
 const totalHeight = document.body.scrollHeight - window.innerHeight;
