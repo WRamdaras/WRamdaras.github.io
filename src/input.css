@@ -20,4 +20,12 @@ body {
   }
   
   /* Navbar */
+  .progress-container {
+    height: 10px;
+    margin-top: 75px;
+  }
   
+  .progress-bar {
+    background-color: #8d2ca0;
+    width: 0;
+  }
